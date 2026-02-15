@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vinyasaconstruction/static/css/main.219accfa.css",
+    "main.js": "/vinyasaconstruction/static/js/main.5770cdbc.js",
+    "static/js/453.59316ff2.chunk.js": "/vinyasaconstruction/static/js/453.59316ff2.chunk.js",
+    "static/media/vc.png": "/vinyasaconstruction/static/media/vc.dae7907f51ced5c00a67.png",
+    "index.html": "/vinyasaconstruction/index.html",
+    "main.219accfa.css.map": "/vinyasaconstruction/static/css/main.219accfa.css.map",
+    "main.5770cdbc.js.map": "/vinyasaconstruction/static/js/main.5770cdbc.js.map",
+    "453.59316ff2.chunk.js.map": "/vinyasaconstruction/static/js/453.59316ff2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219accfa.css",
+    "static/js/main.5770cdbc.js"
+  ]
+}

@@ -17,3 +17,21 @@ if (typeof window.IntersectionObserver === 'undefined') {
   }
   window.IntersectionObserver = IntersectionObserver;
 }
+
+// Polyfill for window.matchMedia used in tests (JSDOM)
+if (typeof window.matchMedia === 'undefined') {
+  Object.defineProperty(window, 'matchMedia', {
+    value: function() {
+      return {
+        matches: false,
+        media: '',
+        onchange: null,
+        addListener: function() {},
+        removeListener: function() {},
+        addEventListener: function() {},
+        removeEventListener: function() {},
+        dispatchEvent: function() { return false; }
+      };
+    }
+  });
+}

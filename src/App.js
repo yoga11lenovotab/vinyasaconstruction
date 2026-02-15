@@ -115,7 +115,7 @@ function App() {
     }
     // Default to dark mode
     return true;
-  });
+  }); 
 
   const [counters, setCounters] = useState({ customers: 0, projects: 0, workers: 0 });
   const [hasAnimated, setHasAnimated] = useState(false);
